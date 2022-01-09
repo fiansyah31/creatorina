@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.background {
+    background-image: url('/image/banner\ noraneko\ opensea.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+.header {
+    height: 500px;
+}
+.navbar-creatorina{
+    z-index: 44444;
+}
+.navbar-creatorina.scrolled {
+    padding: 2px 0px;
+    box-shadow: -1px 9px 14px -13px rgba(94,94,94,0.54);
+    background-color: #272727;
+    background-blend-mode: screen;
+    transition: all 0.4s ease-in-out  ;
+    -webkit-transition: all 0.4s ease-in-out ;
+    -moz-transition: all 0.4s ease-in-out ;
+}
+.navbar-creatorina .nav-creatorina {
+    margin-left: auto;
+}
+.navbar-brand {
+    color: #FFFFFF !important;
+    font-weight: bold;
+    font-size: 22px;
+}
+.nav-creatorina .nav-link {
+    position: relative;
+    z-index: 11;
+    margin: 0 5px;
+    padding:2px 15px;
+    transition: border-bottom 0.5s ease;
+    background-color: #0A4D6B;
+}
+.nav-creatorina .nav-link:hover {
+    float: unset;
+    border-bottom: 5px solid #FF6543;
+}
+.nav-creatorina .nav-link {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;  
+    color: #FFFFFF;
+}
+
+.background-hero {
+    padding: 50px;
+    background-color: #0A4560;
+}
+
+.hero-title {
+    font-weight: bold;
+    font-size: 43px;
+    line-height: 56px;
+    color: #FF576B;
+}
+.hero-subtitle {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 35px;
+    color: #D9D9D9;
+
+}
+
+.background-content {
+    padding: 50px;
+    background-color: #0E5575;
+}
+.title {
+    position: relative;
+    z-index: 111111;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 63px;
+    color: #ECB365;
+}
+.line{
+    width: 250px;
+    height: 15px;
+    left: 40%;
+    top: 40px;
+    background-color: #7F43FF;
+    z-index: 0;
+    position: absolute;
+}
+.subtitle {
+    margin-top: 40px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 35px;
+    color: #CCCCCC;
+}
+.box-roadmap {
+    border-bottom-right-radius: 50px;
+    background-color: #E9FF62;
+}
+.title-box {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 35px;
+    color: #1888BB;
+}
+.subtitle-box {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 35px;
+    color: #434343;
+}
+
+
+.name-teams {
+    text-align: center;
+    margin-top: -80px;
+    background-color: #FF6543;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+label {
+    color: #fcfcfc;
+}
+.form-control {
+    background-color: #cfcfcf;
+}
+
+.text-footer {
+    color: #acacac;
+    font-weight: normal;
+    font-size: 14px;
+}
+/*btn*/
+.btn-primary {
+    background-color: #1888BB;
+    border:1px solid #1888BB;
+    transition: all 0.5s ease-in-out ;
+}
+.btn-primary:hover {
+    background-color: #FF6543;
+    border: 1px solid #FF6543;
+}
+/*Icon*/
+.bi {
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+.bi:hover {
+    color: #FF6543;
+}
+
+.navbar-toggler {
+    border: 0px;
+    color: #fcfcfc;
+}
+/*hover 3d*/
+#img-teams:hover {
+    transform-style: preserve-3d;
+    transform: translateZ(20px);
+  }
+  
+  /*hover global background*/
+  .box {
+    position: relative;
+  }
+ .box:hover .boxhover {
+    transform: translate(0rem, 0rem);
+  }
+  
+ .box:hover .contents{
+    transform: translate(0rem, 0rem);
+  }
+  
+ .box:hover .contentsmaps{
+    transform: translate(0rem, 0rem);
+  }
+  
+  .imgBoxs {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .imgBoxs .boxhover {
+      position: relative;
+        z-index: 1;
+  }
+  
+  .contents {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FF6543;
+    z-index: 0;
+    transition: 0.5s ease-in-out;
+    transform: translate(1.5rem, 1.5rem);
+  }
+  .contentsmaps {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FF6543;
+    z-index: 0;
+    transition: 0.5s ease-in-out;
+    transform: translate(1.5rem, 1.5rem);
+    border-bottom-right-radius: 50px;
+  }
+
+@media (max-width:767px) {
+    .nav-creatorina {
+        margin-top: 10px;
+        display: block;
+    }
+    .nav-creatorina .nav-item {
+        margin-bottom: 10px;
+    }
+    #heroimg {
+        margin-top: 40px;
+    }
+    .line {
+        left: 15%;
+    }
+}
